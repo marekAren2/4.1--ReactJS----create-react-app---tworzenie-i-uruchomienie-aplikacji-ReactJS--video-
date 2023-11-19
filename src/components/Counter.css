@@ -1,0 +1,22 @@
+.counter {
+    border: 1px solid black;
+    max-width: 60% ;
+    margin: auto;
+    padding: 30px;
+}
+/* // ASK: ten ala nesting potrzebny? */
+.counter button {
+    background-color: blue;
+    padding: 15px;
+    color: aliceblue;
+    font-size: 22px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.counter button:hover {
+    background-color: rgb(130, 130, 219);
+}
+.counter .buttonAdd {
+    margin-left: 5px;
+}
